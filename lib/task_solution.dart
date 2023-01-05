@@ -64,7 +64,7 @@ class TaskSolution {
     return true;
   }
 
-  ///Checks if the argument has at least one 
+  ///Checks if the argument has at least one
   ///lower case character
   bool containsOneLowerCaseCharacter(String text) {
     ///Convert the string into an array
@@ -73,23 +73,23 @@ class TaskSolution {
     ///Has to be within the range of 97 to 122
     for (final i in textArray) {
       final asciiValue = i.codeUnitAt(0);
-      if(asciiValue >= 97 && asciiValue <=122){
+      if (asciiValue >= 97 && asciiValue <= 122) {
         return true;
       }
     }
     return false;
   }
 
-
-  ///Checks if the argument has at least one 
+  ///Checks if the argument has at least one
   ///upper case character
   bool containsOneUpperCaseCharacter(String text) {
     ///Convert the string into an array
     final textArray = text.split('');
- ///Has to be within the range of 97 to 122
+
+    ///Has to be within the range of 97 to 122
     for (final i in textArray) {
       final asciiValue = i.codeUnitAt(0);
-      if(asciiValue >= 33 && asciiValue <=58){
+      if (asciiValue >= 33 && asciiValue <= 58) {
         return true;
       }
     }
