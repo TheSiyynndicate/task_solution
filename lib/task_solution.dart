@@ -89,7 +89,7 @@ class TaskSolution {
     ///Has to be within the range of 97 to 122
     for (final i in textArray) {
       final asciiValue = i.codeUnitAt(0);
-      if (asciiValue >= 33 && asciiValue <= 58) {
+      if (asciiValue >= 65 && asciiValue <= 90) {
         return true;
       }
     }

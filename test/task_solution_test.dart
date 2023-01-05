@@ -34,14 +34,14 @@ void main() {
         taskSolution.containsOneLowerCaseCharacter('ADD'),
         false,
       );
-      expect(taskSolution.isNonAdjacent('t1e1x1t'), true);
+      expect(taskSolution.containsOneLowerCaseCharacter('t1e1x1t'), true);
     });
     test('Checks if the string passed has one upper case character', () {
       expect(
         taskSolution.containsOneUpperCaseCharacter('add'),
         false,
       );
-      expect(taskSolution.containsOneUpperCaseCharacter('ADD'), true);
+      expect(taskSolution.containsOneUpperCaseCharacter('adD'), true);
     });
   });
 }
